@@ -1,0 +1,28 @@
+name: Bug report
+description: Something behaves differently from the spec or the docs.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: agentpool version
+      description: Output of `agentpool version`
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client and version
+      placeholder: "OpenCode 2.x.y (headless)"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Redact prompts, tokens and account identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: spec
+    attributes:
+      label: Relevant spec section
+      placeholder: "v5.2 §6.2 failure/retry matrix"

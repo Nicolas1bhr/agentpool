@@ -1,0 +1,23 @@
+name: Connector request
+description: Propose support for a provider or credential mode.
+labels: [connector]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider and credential mode
+      placeholder: "<provider> · API key | OAuth | subscription | enterprise | local"
+    validations:
+      required: true
+  - type: textarea
+    id: terms
+    attributes:
+      label: Documented flow and terms
+      description: Link the provider's developer docs and the terms that permit this use from a third-party tool (see docs/PROVIDER_POLICY.md). Requests without this cannot be certified.
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Protocol and capabilities
+      description: Wire protocol, streaming, tools, reasoning, usage/limit reporting.

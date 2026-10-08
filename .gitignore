@@ -1,0 +1,12 @@
+/bin/
+/dist/
+*.test
+*.out
+coverage.*
+.DS_Store
+.idea/
+.vscode/
+# Never commit credentials or local manifests with real references
+*.env
+.env*
+routes.local.yaml

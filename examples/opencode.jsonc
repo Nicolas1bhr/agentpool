@@ -1,0 +1,31 @@
+// opencode.jsonc — ILLUSTRATIVE, UNVERIFIED (spec v5.2 §2.2, Chat Completions profile)
+//
+// Verify against the pinned OpenCode build before use. Native V2 uses `providers`, `package`,
+// `settings.baseURL` and a `models` map; V1 uses `provider`, `npm`, `options.baseURL`. Do not mix them.
+//
+// AGENTPOOL_CLIENT_TOKEN is an AgentPool-issued, local, audience-limited gateway credential —
+// NOT an upstream provider key. Upstream keys never appear in OpenCode configuration.
+//
+// "coding-compatible" is a placeholder alias, not a model entitlement. Replace it with a truthful
+// catalog alias whose model, capabilities and limits are verified against the real backend.
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "agentpool/coding-compatible",
+  "providers": {
+    "agentpool": {
+      "name": "AgentPool",
+      "package": "@opencode/ai/providers/openai-compatible",
+      "env": ["AGENTPOOL_CLIENT_TOKEN"],
+      "settings": {
+        "baseURL": "http://127.0.0.1:43819/v1",
+        "transport": "http"
+      },
+      "models": {
+        "coding-compatible": {
+          "name": "AgentPool • verified coding model",
+          "modelID": "coding-compatible"
+        }
+      }
+    }
+  }
+}
