@@ -8,6 +8,8 @@ All notable changes to this project are documented here. The format follows
 ## [Unreleased]
 
 ### Added
+- Orchestration standard for delegated and multi-agent work (`docs/ORCHESTRATION-STANDARD.md`) and a `CLAUDE.md`
+  naming this project's gate, protected surfaces and record.
 - Independent research paper (2026-10-08) assessing feasibility, continuity limits and provider
   terms for inference capacity pooling (`docs/architecture/`).
 
