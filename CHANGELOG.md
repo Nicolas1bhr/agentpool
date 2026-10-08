@@ -7,6 +7,10 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+- Independent research paper (2026-10-08) assessing feasibility, continuity limits and provider
+  terms for inference capacity pooling (`docs/architecture/`).
+
 ## [0.1.0] - 2026-10-08
 
 ### Added

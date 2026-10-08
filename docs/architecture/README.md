@@ -10,6 +10,13 @@
 v5.2 supersedes all earlier documents **on the location of the provider boundary and all resulting
 interfaces**: AgentPool sits *below* OpenCode as a model provider, never above it as an agent bridge.
 
+## Independent research
+
+**[Feasibility, Continuity, and the Limits of Inference Capacity Pooling](AgentPool_Independent_Research_Paper_2026-10-08.md)**
+(2026-10-08) — an evidence-based review of the v5.2 design against vendor documentation, public
+source code and field reports. Verdict: engineering **conditional GO**; commercial thesis **not yet
+investment-proven**. It is research, not a certification, security audit or legal opinion.
+
 ## History
 
 Kept for the reasoning they record (spec §16.1 lists which ideas remain binding). Oldest first:
