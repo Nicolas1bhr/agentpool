@@ -8,6 +8,15 @@ This is the dedicated place to **finish and validate the design before implement
 
 ## Start here
 
+**Proposed final construction handoff (candidate v2; not approved or construction authorization):**
+[AgentPool — Final Construction Charter](AgentPool_Final_Construction_Charter.md)
+
+This charter consolidates the intended destination, autonomous construction boundaries, ten release outcomes, and evidence required for a finished product. It does not supersede the governing architecture contracts or authorize infrastructure changes.
+
+**Proposed central deployment addendum (v3; parent amendments require approval):**
+[AgentPool Central Deployment & Execution Contract v3](AgentPool_Central_Deployment_and_Execution_Contract_v3.md)
+
+
 **Current design addendum:**
 [AgentPool Environment Slots & Multi-Login — Implementation Contract v2.0](AgentPool_Environment_Slots_and_Multi_Login_Implementation_Contract_v2.md)
 
@@ -49,4 +58,4 @@ If a planning document conflicts with a governing requirement, **record the exac
 
 Keep the **index in this README** current as material is added. Create subfolders only when they have real contents; suggested categories are `decisions/` (accepted/rejected architectural decisions), `experiments/` (protocol probes, results and sanitized evidence), and `build-plan/` (approved task breakdowns and test gates). Do not copy large canonical documents into several places where they can silently diverge.
 
-**Current state:** Only the v2 contract is filed here. No decision log, experiment result, approved build plan, or runtime implementation is implied by this README.
+**Current state:** The Slots v2 implementation contract, proposed Central Deployment v3 contract, and proposed Final Construction Charter v2 are filed here. They do not imply an owner-approved construction release, completed experiments, permission to change infrastructure, or a running implementation.
